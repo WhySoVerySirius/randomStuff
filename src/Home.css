@@ -43,3 +43,19 @@
     border-radius: 0 0 5px 5px;
     margin: 2rem 0;
 }
+
+@media (max-width:1050px) {
+    .home-cards {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 600px) {
+    .home-cards {
+        overflow: scroll;
+        height: 60%;
+    }
+    .home-container {
+        height: 97%;
+    }
+}

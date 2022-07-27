@@ -24,3 +24,9 @@
     color: var(--color-services-secondary);
     font-family: var(--font-services-secondary);
 }
+
+@media (max-width: 600px) {
+    .card {
+        width: 90%;
+    }
+}

@@ -4,3 +4,16 @@
     padding: 1rem;
     background-color: white;
 }
+
+@media (max-width:1050px) {
+    .main-container {
+        width: fit-content;
+        margin: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-container {
+        height: 95vh;
+    }
+}

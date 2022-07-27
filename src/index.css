@@ -36,3 +36,9 @@ code {
     align-items: center;
     background-color: gray;
 }
+
+@media (max-width: 600px) {
+    body {
+        height: 100%;
+    }
+}

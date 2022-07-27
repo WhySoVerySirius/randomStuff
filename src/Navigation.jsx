@@ -29,6 +29,7 @@ export default function Navigation()
                     <Button text={'Get Started'} buttonClassName={'get-started-button'}/>
                 </ul>
             </nav>
+            <div className="navi-min">III</div>
         </div>
     )
 }

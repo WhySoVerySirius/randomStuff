@@ -44,3 +44,17 @@ nav>ul>* {
 .flex {
     display: flex;
 }
+
+.navi-min {
+    display: none;
+}
+
+@media (max-width: 1050px) {
+    nav {
+        display: none;
+    }
+    .navi-min {
+        display: block;
+        transform: rotate(90deg);
+    }
+}
