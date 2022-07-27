@@ -1,0 +1,25 @@
+.card {
+    width: 25%;
+    aspect-ratio: 1;
+    margin-inline: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    text-align: left;
+    box-shadow: 3px 3px 3px lightgray;
+    font-family: var(--font-services);
+}
+
+.home-card-image {
+    color: var(--color-services-main);
+}
+
+.card-title {
+    color: var(--color-hero-main);
+    font-weight: bold;
+}
+
+.card-text {
+    color: var(--color-services-secondary);
+}

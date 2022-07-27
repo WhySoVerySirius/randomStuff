@@ -1,0 +1,43 @@
+.home-container {
+    background-image: url(https://bootstrapmade.com/demo/templates/OnePage/assets/img/hero-bg.jpg);
+    text-align: center;
+    font-family: var(--font-hero);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 5px 5px;
+    position: relative;
+}
+
+.home-container::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* z-index: -1; */
+}
+
+.home-container>* {
+    z-index: 1;
+}
+
+.home-inner-container {
+    width: 45%;
+}
+
+.home-title {
+    text-transform: capitalize;
+    color: var(--color-hero-main);
+}
+
+.home-para {
+    color: var(--color-hero-secondary)
+}
+
+.home-cards {
+    display: flex;
+    justify-content: center;
+    border-radius: 0 0 5px 5px;
+    margin: 2rem 0;
+}
