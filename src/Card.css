@@ -22,4 +22,5 @@
 
 .card-text {
     color: var(--color-services-secondary);
+    font-family: var(--font-services-secondary);
 }

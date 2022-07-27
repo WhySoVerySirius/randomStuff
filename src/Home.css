@@ -33,7 +33,8 @@
 }
 
 .home-para {
-    color: var(--color-hero-secondary)
+    color: var(--color-hero-secondary);
+    font-family: var(--font-hero-secondary);
 }
 
 .home-cards {

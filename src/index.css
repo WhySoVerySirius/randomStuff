@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Raleway&display=swap');
 :root {
     --color-nav-main: #16507b;
     --color-nav-secondary: #2487ce;
@@ -7,8 +8,10 @@
     --color-services-secondary: #444444;
     --color-button: #2487ce;
     --font-nav: 'Open Sans', sans-serif;
-    --font-hero: 'Poppins', 'Raleway';
-    --font-services: 'Raleway', 'Open Sans', sans-serif;
+    --font-hero: 'Poppins', sans-serif;
+    --font-hero-secondary: 'Raleway', sans-serif;
+    --font-services: 'Raleway', sans-serif;
+    --font-services-secondary: 'Open Sans', sans-serif;
 }
 
 body {
