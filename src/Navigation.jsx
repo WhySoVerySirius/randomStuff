@@ -1,6 +1,7 @@
-import React from "react";
+import React, {useState} from "react";
 import Button from "./Button";
 import './Navigation.css'
+import NavModal from "./NavModal";
 
 export default function Navigation()
 {
@@ -14,6 +15,8 @@ export default function Navigation()
         {title:'DropDown', sub:true},
         {title:'Contact'},
     ]
+
+    const [navHidden, setNavHidden] = useState(true);
 
 
     return (
@@ -29,7 +32,7 @@ export default function Navigation()
                     <Button text={'Get Started'} buttonClassName={'get-started-button'}/>
                 </ul>
             </nav>
-            <div className="navi-min">III</div>
+            <div className="navi-min" onMouseEnter={()=>setNavHidden(false)} onMouseLeave={()=>setNavHidden(true)}>III{!navHidden?<NavModal links={links}/>:null}</div>
         </div>
     )
 }

@@ -47,6 +47,7 @@ nav>ul>* {
 
 .navi-min {
     display: none;
+    position: relative;
 }
 
 @media (max-width: 1050px) {
