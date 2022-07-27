@@ -1,4 +1,6 @@
 .main-container {
     width: min-content;
     border-radius: 5px;
+    padding: 1rem;
+    background-color: white;
 }

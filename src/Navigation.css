@@ -5,7 +5,8 @@
     font-family: var(--font-nav);
     background-color: white;
     border-radius: 5px 5px 0 0;
-    padding: 0 1rem
+    padding: 0 1rem;
+    border-bottom: 1px solid lightblue;
 }
 
 .logo {
