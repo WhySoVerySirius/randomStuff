@@ -14,6 +14,7 @@
 
 nav {
     font-size: 14px;
+    margin-left: 5rem;
 }
 
 nav>ul {
@@ -23,7 +24,7 @@ nav>ul {
 
 nav>ul>* {
     list-style: none;
-    margin-inline: 0.5rem;
+    margin-inline: 1rem;
 }
 
 .drop {
