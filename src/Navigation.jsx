@@ -11,7 +11,7 @@ export default function Navigation()
         {title:'Portfolio'},
         {title:'Team'},
         {title:'Pricing'},
-        {title:'DropDown'},
+        {title:'DropDown', sub:true},
         {title:'Contact'},
     ]
 
@@ -21,7 +21,11 @@ export default function Navigation()
             <div className="logo">OnePage</div>
             <nav>
                 <ul>
-                    {links.map(link=><li>{link.title}</li>)}
+                    {links.map(
+                        link=>!link.sub
+                            ?<li>{link.title}</li>
+                            :<li className="flex">{link.title}<div className="drop"/></li>
+                        )}
                     <Button text={'Get Started'} buttonClassName={'get-started-button'}/>
                 </ul>
             </nav>

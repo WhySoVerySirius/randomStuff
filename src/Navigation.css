@@ -25,3 +25,20 @@ nav>ul>* {
     list-style: none;
     margin-inline: 0.5rem;
 }
+
+.drop {
+    height: 100%;
+    aspect-ratio: 1;
+    position: relative;
+}
+
+.drop::after {
+    content: '>';
+    position: absolute;
+    transform: rotate(90deg);
+    left: 2px
+}
+
+.flex {
+    display: flex;
+}
